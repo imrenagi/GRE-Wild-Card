@@ -10,12 +10,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.gc.materialdesign.views.ButtonFloat;
 import com.google.gson.Gson;
 import com.imrenagi.greflashcard.adapter.FlashcardAdapter;
 import com.imrenagi.greflashcard.model.Word;
 import com.imrenagi.greflashcard.model.Words;
 import com.lorentzos.flingswipe.SwipeFlingAdapterView;
-import com.rey.material.widget.FloatingActionButton;
+
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -25,7 +26,7 @@ import java.util.ArrayList;
 public class WordsActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
-    private FloatingActionButton button;
+    private ButtonFloat button;
     private SwipeFlingAdapterView flingContainer;
     private FlashcardAdapter adapter;
 
@@ -41,7 +42,7 @@ public class WordsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_words);
 
-        button = (FloatingActionButton) findViewById(R.id.edit);
+        button = (ButtonFloat) findViewById(R.id.buttonFloat);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
