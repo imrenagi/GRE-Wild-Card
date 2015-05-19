@@ -20,7 +20,6 @@ import com.rey.material.widget.FloatingActionButton;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.List;
 
 
 public class WordsActivity extends AppCompatActivity {
@@ -33,7 +32,9 @@ public class WordsActivity extends AppCompatActivity {
     private Gson gson = new Gson();
     private Words words;
     private String json = null;
-    private List<Word> wordList = new ArrayList<>();
+    private ArrayList<Word> wordList = new ArrayList<>();
+
+    private boolean isNewUpdate = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,11 +74,16 @@ public class WordsActivity extends AppCompatActivity {
             public void removeFirstObjectInAdapter() {
                 // this is the simplest way to delete an object from the Adapter (/AdapterView)
                 Log.d("LIST", "removed object!");
-                if (wordList.size() != 0) {
-                    wordList.remove(0);
-//                    adapter.updateList(wordList);
+
+                if (isNewUpdate) {
+                    Log.d("UPDATE", "TRUE");
+                    isNewUpdate = false;
                     adapter.notifyDataSetChanged();
+                    return;
                 }
+
+                wordList.remove(0);
+                adapter.notifyDataSetChanged();
             }
 
             @Override
@@ -97,6 +103,7 @@ public class WordsActivity extends AppCompatActivity {
 
             @Override
             public void onScroll(float v) {
+
 
             }
         });
@@ -129,7 +136,7 @@ public class WordsActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        flingContainer.getTopCardListener().selectRight();
+        isNewUpdate = true;
 
         switch (id) {
             case R.id.action_part_1:
@@ -138,19 +145,14 @@ public class WordsActivity extends AppCompatActivity {
             case R.id.action_part_2:
                 create("dic-2.txt");
                 break;
-            case R.id.action_part_3:
-                break;
-            case R.id.action_part_4:
-                break;
-            case R.id.action_part_5:
-                break;
-            case R.id.action_part_6:
-                break;
+            default:
+                return true;
         }
 
-        adapter.updateList(wordList);
-
-        return super.onOptionsItemSelected(item);
+        flingContainer.getTopCardListener().selectRight();
+        adapter = new FlashcardAdapter(this, R.layout.flashcard, wordList);
+        flingContainer.setAdapter(adapter);
+        return true;
     }
 
     private String readJson(String fileName) throws IOException {
