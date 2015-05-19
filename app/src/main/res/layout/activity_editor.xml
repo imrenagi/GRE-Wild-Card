@@ -15,39 +15,68 @@
         app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar"
         app:theme="@style/Toolbar" />
 
+    <TextView
+        android:id="@+id/word_label"
+        android:text="Vocabulary"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
     <EditText
         android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/toolbar"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_below="@id/word_label"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
         android:layout_marginRight="@dimen/activity_horizontal_margin"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
         android:hint="Word"
         android:maxLines="1"
         android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/type_label"
+        android:text="Type"
+        android:layout_below="@id/name"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
     <Spinner
         android:id="@+id/type"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/name"
+        android:layout_toRightOf="@+id/type_label"
+        android:layout_alignTop="@id/type_label"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
         android:layout_marginRight="@dimen/activity_horizontal_margin"
         android:entries="@array/type_arrays"
         android:prompt="@string/type_prompt"/>
 
+    <TextView
+        android:id="@+id/meaning_label"
+        android:text="Meaning"
+        android:layout_below="@id/type"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
     <EditText
         android:id="@+id/meaning"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/type"
+        android:layout_below="@id/meaning_label"
         android:lines="3"
         android:layout_marginBottom="@dimen/activity_vertical_margin"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
         android:layout_marginRight="@dimen/activity_horizontal_margin"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
         android:hint="Meaning"
         android:textSize="20sp" />
 
