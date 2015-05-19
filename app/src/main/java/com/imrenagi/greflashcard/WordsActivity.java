@@ -8,22 +8,21 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
 
 import com.gc.materialdesign.views.ButtonFloat;
 import com.google.gson.Gson;
 import com.imrenagi.greflashcard.adapter.FlashcardAdapter;
+import com.imrenagi.greflashcard.adapter.FlashcardAdapter.FlashCardButtonListener;
 import com.imrenagi.greflashcard.model.Word;
 import com.imrenagi.greflashcard.model.Words;
 import com.lorentzos.flingswipe.SwipeFlingAdapterView;
-
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 
 
-public class WordsActivity extends AppCompatActivity {
+public class WordsActivity extends AppCompatActivity implements FlashCardButtonListener {
 
     private Toolbar toolbar;
     private ButtonFloat button;
@@ -66,7 +65,7 @@ public class WordsActivity extends AppCompatActivity {
         Log.d("", "");
 
         flingContainer = (SwipeFlingAdapterView) findViewById(R.id.frame);
-        adapter = new FlashcardAdapter(this, R.layout.flashcard, wordList);
+        adapter = new FlashcardAdapter(this, R.layout.flashcard, wordList, this);
 
         flingContainer.setAdapter(adapter);
 
@@ -89,41 +88,31 @@ public class WordsActivity extends AppCompatActivity {
 
             @Override
             public void onLeftCardExit(Object dataObject) {
-                Toast.makeText(WordsActivity.this, "Left!", Toast.LENGTH_SHORT).show();
+
             }
 
             @Override
             public void onRightCardExit(Object dataObject) {
-                Toast.makeText(WordsActivity.this, "Right!", Toast.LENGTH_SHORT).show();
+
             }
 
             @Override
             public void onAdapterAboutToEmpty(int itemsInAdapter) {
-//                Toast.makeText(WordsActivity.this, "Empty!", Toast.LENGTH_SHORT).show();
+
             }
 
             @Override
             public void onScroll(float v) {
 
-
             }
         });
 
-        // Optionally add an OnItemClickListener
         flingContainer.setOnItemClickListener(new SwipeFlingAdapterView.OnItemClickListener() {
             @Override
             public void onItemClicked(int itemPosition, Object dataObject) {
-                Toast.makeText(WordsActivity.this, "Click!", Toast.LENGTH_SHORT).show();
+
             }
         });
-
-//        Button buttonRight = (Button) findViewById(R.id.right_button);
-//        buttonRight.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                flingContainer.getTopCardListener().selectRight();
-//            }
-//        });
 
     }
 
@@ -151,8 +140,9 @@ public class WordsActivity extends AppCompatActivity {
         }
 
         flingContainer.getTopCardListener().selectRight();
-        adapter = new FlashcardAdapter(this, R.layout.flashcard, wordList);
-        flingContainer.setAdapter(adapter);
+
+        adapter.updateList(wordList);
+
         return true;
     }
 
@@ -183,5 +173,15 @@ public class WordsActivity extends AppCompatActivity {
         for (Word word : words.words) {
             wordList.add(word);
         }
+    }
+
+    @Override
+    public void onRightButtonPressed() {
+        flingContainer.getTopCardListener().selectRight();
+    }
+
+    @Override
+    public void onLeftButtonPressed() {
+        flingContainer.getTopCardListener().selectLeft();
     }
 }

@@ -6,4 +6,6 @@
     <color name="accent">#E91E63</color>
     <color name="accentLight">#EC407A</color>
 
+    <color name="white">#FFFF</color>
+
 </resources>

@@ -1,10 +1,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="200dp"
+    android:layout_gravity="center_horizontal"
     android:layout_marginLeft="16dp"
     android:layout_marginRight="16dp"
     android:layout_marginTop="50dp"
-    android:layout_gravity="center_horizontal"
     android:background="@drawable/card_background"
     android:elevation="5dp"
     android:padding="16dp">
@@ -31,15 +31,22 @@
         android:textColor="@android:color/white"
         android:textSize="16sp" />
 
-    <TextView
-        android:id="@+id/example"
+    <com.gc.materialdesign.views.ButtonFlat
+        android:id="@+id/got_it"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/meaning"
-        android:alpha="0.7"
-        android:maxLines="4"
-        android:text="e.g. Lorem ipsum bla bla bla bla bla bla bla bla Lorem ipsum bla bla bla bla bla bla bla bla Lorem ipsum bla bla bla bla bla bla bla bla Lorem ipsum bla bla bla bla bla bla bla bla"
-        android:textColor="@android:color/white"
-        android:textSize="14sp" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/white"
+        android:text="Got It" />
+
+    <com.gc.materialdesign.views.ButtonFlat
+        android:id="@+id/note_it"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/white"
+        android:text="Try Again Later" />
 
 </RelativeLayout>

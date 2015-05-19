@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
+import com.gc.materialdesign.views.ButtonFlat;
 import com.imrenagi.greflashcard.R;
 import com.imrenagi.greflashcard.model.Word;
 
@@ -17,6 +18,11 @@ import java.util.List;
  */
 public class FlashcardAdapter extends ArrayAdapter<Word> {
 
+    public interface FlashCardButtonListener {
+        void onRightButtonPressed();
+        void onLeftButtonPressed();
+    }
+
     private LayoutInflater mInflater;
 
     private Context context;
@@ -25,13 +31,17 @@ public class FlashcardAdapter extends ArrayAdapter<Word> {
 
     private List<Word> words = null;
 
-    public FlashcardAdapter(Context context, int layoutResourceId, List<Word> objects) {
+    private FlashCardButtonListener listener;
+
+    public FlashcardAdapter(Context context, int layoutResourceId, List<Word> objects, FlashCardButtonListener listener) {
         super(context, layoutResourceId, objects);
         this.context = context;
         this.layoutResourceId = layoutResourceId;
         this.words = objects;
         mInflater = (LayoutInflater) (this.context)
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+        this.listener = listener;
     }
 
     public void updateList(List<Word> words) {
@@ -78,6 +88,20 @@ public class FlashcardAdapter extends ArrayAdapter<Word> {
         holder.word.setText(word.name);
         holder.meaning.setText(word.meaning);
 
+        holder.rightButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                listener.onRightButtonPressed();
+            }
+        });
+
+        holder.leftButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                listener.onLeftButtonPressed();
+            }
+        });
+
         return row;
     }
 
@@ -85,10 +109,15 @@ public class FlashcardAdapter extends ArrayAdapter<Word> {
 
         TextView word;
         TextView meaning;
+        ButtonFlat rightButton;
+        ButtonFlat leftButton;
 
         public EventHolder(View view) {
             word = (TextView) view.findViewById(R.id.word);
             meaning = (TextView) view.findViewById(R.id.meaning);
+            rightButton = (ButtonFlat) view.findViewById(R.id.got_it);
+            leftButton = (ButtonFlat) view.findViewById(R.id.note_it);
+
         }
     }
 
