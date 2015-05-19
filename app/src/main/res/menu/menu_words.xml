@@ -1,6 +1,42 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools" tools:context=".WordsActivity">
-    <item android:id="@+id/action_settings" android:title="@string/action_settings"
-        android:orderInCategory="100" app:showAsAction="never" />
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".WordsActivity">
+
+    <item
+        android:id="@+id/action_part_1"
+        android:orderInCategory="1"
+        android:title="@string/part_one"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_part_2"
+        android:orderInCategory="2"
+        android:title="@string/part_two"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_part_3"
+        android:orderInCategory="3"
+        android:title="@string/part_three"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_part_4"
+        android:orderInCategory="4"
+        android:title="@string/part_four"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_part_5"
+        android:orderInCategory="5"
+        android:title="@string/part_five"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_part_6"
+        android:orderInCategory="6"
+        android:title="@string/part_six"
+        app:showAsAction="never"/>
+
 </menu>

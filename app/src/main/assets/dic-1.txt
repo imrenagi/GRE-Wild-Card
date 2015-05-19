@@ -1,0 +1,312 @@
+{
+    "words": [
+        {
+            "word": "Abscond",
+            "meaning": "(verb) to depart clandestinely; to steal off and hide"
+        },
+        {
+            "word": "Aberrant",
+            "meaning": "(adj.) deviating from the norm (noun form: aberration)"
+        },
+        {
+            "word": "Alacrity",
+            "meaning": "(noun) eager and enthusiastic willingness"
+        },
+        {
+            "word": "Anomaly",
+            "meaning": "(noun) deviation from the normal order, form, or rule; abnormality (adj. form: anomalous)"
+        },
+        {
+            "word": "Approbation",
+            "meaning": "(noun) an expression of approval or praise"
+        },
+        {
+            "word": "Arduous",
+            "meaning": "(adj.) strenuous, taxing; requiring significant effort"
+        },
+        {
+            "word": "Assuage",
+            "meaning": "(verb) to ease or lessen; to appease or pacify"
+        },
+        {
+            "word": "Audacious",
+            "meaning": "(adj.) daring and fearless; recklessly bold (noun form: audacity)"
+        },
+        {
+            "word": "Austere",
+            "meaning": "(adj.) without adornment; bare; severely simple; ascetic (noun form: austerity)"
+        },
+        {
+            "word": "Axiomatic",
+            "meaning": "(adj.) taken as a given; possessing self-evident truth (noun form: axiom)"
+        },
+        {
+            "word": "Canonical",
+            "meaning": "(adj.) following or in agreement with accepted, traditional standards (noun form: canon)"
+        },
+        {
+            "word": "Capricious",
+            "meaning": "(adj.) inclined to change one’s mind impulsively; erratic, unpredictable"
+        },
+        {
+            "word": "Censure",
+            "meaning": "(verb) to criticize severely; to officially rebuke"
+        },
+        {
+            "word": "Chicanery",
+            "meaning": "(noun) trickery or subterfuge"
+        },
+        {
+            "word": "Connoisseur",
+            "meaning": "(noun) an informed and astute judge in matters of taste; expert"
+        },
+        {
+            "word": "Convoluted",
+            "meaning": "(adj.) complex or complicated"
+        },
+        {
+            "word": "Disabuse",
+            "meaning": "(verb) to undeceive; to set right"
+        },
+        {
+            "word": "Discordant",
+            "meaning": "(adj.) conflicting; dissonant or harsh in sound"
+        },
+        {
+            "word": "Disparate",
+            "meaning": "(adj.) fundamentally distinct or dissimilar"
+        },
+        {
+            "word": "Effrontery",
+            "meaning": "(noun) extreme boldness; presumptuousness"
+        },
+        {
+            "word": "Eloquent",
+            "meaning": "(adj.) well-spoken, expressive, articulate (noun form: eloquence)"
+        },
+        {
+            "word": "Enervate",
+            "meaning": "(verb) to weaken; to reduce in vitality"
+        },
+        {
+            "word": "Ennui",
+            "meaning": "(noun) dissatisfaction and restlessness resulting from boredom or apathy"
+        },
+        {
+            "word": "Equivocate",
+            "meaning": "(verb) to use ambiguous language with a deceptive intent (adj. form: equivocal)"
+        },
+        {
+            "word": "Erudite",
+            "meaning": "(adj.) very learned; scholarly (noun form: erudition)"
+        },
+        {
+            "word": "Exigent ",
+            "meaning": "(adj.) urgent, pressing; requiring immediate action or attention"
+        },
+        {
+            "word": "Exculpate",
+            "meaning": "(verb) exonerate; to clear of blame"
+        },
+        {
+            "word": "Extemporaneous ",
+            "meaning": "(adj.) improvised; done without preparation"
+        },
+        {
+            "word": "Filibuster ",
+            "meaning": "(noun) intentional obstruction, esp. using prolonged speechmaking to delay legislative action"
+        },
+        {
+            "word": "Fulminate ",
+            "meaning": "(verb) to loudly attack or denounce"
+        },
+        {
+            "word": "Ingenuous ",
+            "meaning": "(adj.) artless; frank and candid; lacking in sophistication"
+        },
+        {
+            "word": "Inured ",
+            "meaning": "(adj.) accustomed to accepting something undesirable"
+        },
+        {
+            "word": "Irascible ",
+            "meaning": "(adj.) easily angered; prone to temperamental outbursts"
+        },
+        {
+            "word": "Laud ",
+            "meaning": "(verb) to praise highly (adj. form: laudatory)"
+        },
+        {
+            "word": "Lucid ",
+            "meaning": "(adj.) clear; easily understood"
+        },
+        {
+            "word": "Magnanimity ",
+            "meaning": "(noun) the quality of being generously noble in mind and heart, esp. in forgiving (adj. form: magnanimous)"
+        },
+        {
+            "word": "Martial ",
+            "meaning": "(adj.) associated with war and the armed forces"
+        },
+        {
+            "word": "Mundane ",
+            "meaning": "(adj.) of the world; typical of or concerned with the ordinary"
+        },
+        {
+            "word": "Nascent ",
+            "meaning": "(adj.) coming into being; in early developmental stages"
+        },
+        {
+            "word": "Nebulous ",
+            "meaning": "(adj.) vague; cloudy; lacking clearly defined form"
+        },
+        {
+            "word": "Neologism ",
+            "meaning": "(noun) a new word, expression, or usage; the creation or use of new words or senses"
+        },
+        {
+            "word": "Noxious ",
+            "meaning": "(adj.) harmful, injurious"
+        },
+        {
+            "word": "Obtuse ",
+            "meaning": "(adj.) lacking sharpness of intellect; not clear or precise in thought or expression"
+        },
+        {
+            "word": "Obviate ",
+            "meaning": "(verb) to anticipate and make unnecessary"
+        },
+        {
+            "word": "Onerous ",
+            "meaning": "(adj.) troubling; burdensome"
+        },
+        {
+            "word": "Paean ",
+            "meaning": "(noun) a song or hymn of praise and thanksgiving"
+        },
+        {
+            "word": "Parody ",
+            "meaning": "(noun) a humorous imitation intended for ridicule or comic effect, esp. in literature and art"
+        },
+        {
+            "word": "Perennial ",
+            "meaning": "(adj.) recurrent through the year or many years; happening repeatedly"
+        },
+        {
+            "word": "Perfidy ",
+            "meaning": "(noun) intentional breach of faith; treachery (adj. form: perfidious)"
+        },
+        {
+            "word": "Perfunctory ",
+            "meaning": "(adj.) cursory; done without care or interest"
+        },
+        {
+            "word": "Perspicacious ",
+            "meaning": "(adj.) acutely perceptive; having keen discernment (noun form: perspicacity)"
+        },
+        {
+            "word": "Prattle ",
+            "meaning": "(verb) to babble meaninglessly; to talk in an empty and idle manner"
+        },
+        {
+            "word": "Precipitate ",
+            "meaning": "(adj.) acting with excessive haste or impulse"
+        },
+        {
+            "word": "Precipitate ",
+            "meaning": "(verb) to cause or happen before anticipated or required"
+        },
+        {
+            "word": "Predilection ",
+            "meaning": "(noun) a disposition in favor of something; preference"
+        },
+        {
+            "word": "Prescience",
+            "meaning": "(noun) foreknowledge of events; knowing of events prior to their occurring (adj. form: prescient)"
+        },
+        {
+            "word": "Prevaricate",
+            "meaning": "(verb) to deliberately avoid the truth; to mislead"
+        },
+        {
+            "word": "Qualms ",
+            "meaning": "(noun) misgivings; reservations; causes for hesitancy"
+        },
+        {
+            "word": "Recant ",
+            "meaning": "(verb) to retract, esp. a previously held belief"
+        },
+        {
+            "word": "Refute ",
+            "meaning": "(verb) to disprove; to successfully argue against"
+        },
+        {
+            "word": "Relegate ",
+            "meaning": "(verb) to forcibly assign, esp. to a lower place or position"
+        },
+        {
+            "word": "Reticent ",
+            "meaning": "(adj.) quiet; reserved; reluctant to express thoughts and feelings"
+        },
+        {
+            "word": "Solicitous ",
+            "meaning": "(adj.) concerned and attentive; eager"
+        },
+        {
+            "word": "Sordid ",
+            "meaning": "(adj.) characterized by filth, grime, or squalor; foul"
+        },
+        {
+            "word": "Sporadic ",
+            "meaning": "(adj.) occurring only occasionally, or in scattered instances"
+        },
+        {
+            "word": "Squander ",
+            "meaning": "(verb) to waste by spending or using irresponsibly"
+        },
+        {
+            "word": "Static ",
+            "meaning": "(adj.) not moving, active, or in motion; at rest"
+        },
+        {
+            "word": "Stupefy ",
+            "meaning": "(verb) to stun, baffle, or amaze"
+        },
+        {
+            "word": "Stymie ",
+            "meaning": "(verb) to block; to thwart"
+        },
+        {
+            "word": "Synthesis ",
+            "meaning": "(noun) the combination of parts to make a whole (verb form: synthesize)"
+        },
+        {
+            "word": "Torque ",
+            "meaning": "(noun) a force that causes rotation"
+        },
+        {
+            "word": "Tortuous ",
+            "meaning": "(adj.) winding, twisting; excessively complicated"
+        },
+        {
+            "word": "Truculent ",
+            "meaning": "(adj.) fierce and cruel; eager to fight"
+        },
+        {
+            "word": "Veracity ",
+            "meaning": "(noun) truthfulness, honesty"
+        },
+        {
+            "word": "Virulent ",
+            "meaning": "(adj.) extremely harmful or poisonous; bitterly hostile or antagonistic"
+        },
+        {
+            "word": "Voracious ",
+            "meaning": "(adj.) having an insatiable appetite for an activity or pursuit; ravenous"
+        },
+        {
+            "word": "Waver ",
+            "meaning": "(verb) to move to and fro; to sway; to be unsettled in opinion"
+        }
+    ]
+}

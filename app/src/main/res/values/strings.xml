@@ -3,4 +3,19 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_editor">EditorActivity</string>
+    <string name="part_one">Basic Practice 1</string>
+    <string name="part_two">Basic Practice 2</string>
+    <string name="part_three">Basic Practice 3</string>
+    <string name="part_four">Basic Practice 4</string>
+    <string name="part_five">Advance Practice 1</string>
+    <string name="part_six">Advance Practice 2</string>
+
+    <string name="type_prompt">Type</string>
+    <string name="finish">Finish</string>
+    <string-array name="type_arrays">
+        <item>(noun)</item>
+        <item>(adj.)</item>
+        <item>(verb)</item>
+    </string-array>
 </resources>
