@@ -1,0 +1,292 @@
+{
+    "words": [
+        {
+            "word": "Acerbic",
+            "meaning": "(adj.) having a sour or bitter taste or character; sharp; biting"
+        },
+        {
+            "word": "Aggrandize ",
+            "meaning": "(verb) to increase in intensity, power, influence, or prestige"
+        },
+        {
+            "word": "Alchemy ",
+            "meaning": "(noun) a medieval science aimed at the transmutation of metals, esp. base metals into gold (an alchemist is one who practices alchemy)"
+        },
+        {
+            "word": "Amenable ",
+            "meaning": "(adj.) agreeable; responsive to suggestion"
+        },
+        {
+            "word": "Anachronism",
+            "meaning": "(noun) something or someone out of place in terms of historical or chronological context"
+        },
+        {
+            "word": "Astringent ",
+            "meaning": "(adj.) having a tightening effect on living tissue; harsh; severe; something with a tightening effect on tissue"
+        },
+        {
+            "word": "Contiguous ",
+            "meaning": "(adj.) sharing a border; touching; adjacent"
+        },
+        {
+            "word": "Convention ",
+            "meaning": "(noun) a generally agreed-upon practice or attitude"
+        },
+        {
+            "word": "Credulous ",
+            "meaning": "(adj.) tending to believe too readily; gullible (noun form: credulity)"
+        },
+        {
+            "word": "Cynicism ",
+            "meaning": "(noun) an attitude or quality of belief that all people are motivated by selfishness (adj. form: cynical)"
+        },
+        {
+            "word": "Decorum ",
+            "meaning": "(noun) polite or appropriate conduct or behavior (adj. form: decorous)"
+        },
+        {
+            "word": "Derision ",
+            "meaning": "(noun) scorn, ridicule, contemptuous treatment (adj. form: derisive; verb form: deride)"
+        },
+        {
+            "word": "Desiccate ",
+            "meaning": "(verb) to dry out or dehydrate; to make dry or dull"
+        },
+        {
+            "word": "Dilettante ",
+            "meaning": "(noun) one with an amateurish or superficial interest in the arts or a branch of knowledge"
+        },
+        {
+            "word": "Disparage ",
+            "meaning": "(verb) to slight or belittle"
+        },
+        {
+            "word": "Divulge ",
+            "meaning": "(verb) to disclose something secret"
+        },
+        {
+            "word": "Fawn ",
+            "meaning": "(verb) to flatter or praise excessively"
+        },
+        {
+            "word": "Flout ",
+            "meaning": "(verb) to show contempt for, as in a rule or convention"
+        },
+        {
+            "word": "Garrulous ",
+            "meaning": "(adj.) pointlessly talkative; talking too much"
+        },
+        {
+            "word": "Glib ",
+            "meaning": "(adj.) marked by ease or informality; nonchalant; lacking in depth; superficial"
+        },
+        {
+            "word": "Hubris ",
+            "meaning": "(noun) overbearing presumption or pride; arrogance"
+        },
+        {
+            "word": "Imminent ",
+            "meaning": "(adj.) about to happen; impending"
+        },
+        {
+            "word": "Immutable ",
+            "meaning": "(adj.) not capable of change"
+        },
+        {
+            "word": "Impetuous ",
+            "meaning": "(adj.) hastily or rashly energetic; impulsive and vehement"
+        },
+        {
+            "word": "Indifferent ",
+            "meaning": "(adj.) having no interest or concern; showing no bias or prejudice"
+        },
+        {
+            "word": "Inimical ",
+            "meaning": "(adj.) damaging; harmful; injurious"
+        },
+        {
+            "word": "Intractable ",
+            "meaning": "(adj.) not easily managed or directed; stubborn; obstinate"
+        },
+        {
+            "word": "Intrepid ",
+            "meaning": "(adj.) steadfast and courageous"
+        },
+        {
+            "word": "Laconic ",
+            "meaning": "(adj.) using few words; terse"
+        },
+        {
+            "word": "Maverick ",
+            "meaning": "(noun) an independent individual who does not go along with a group or party"
+        },
+        {
+            "word": "Mercurial ",
+            "meaning": "(adj.) characterized by rapid and unpredictable change in mood"
+        },
+        {
+            "word": "Mollify ",
+            "meaning": "(verb) to calm or soothe; to reduce in emotional intensity"
+        },
+        {
+            "word": "Neophyte ",
+            "meaning": "(noun) a recent convert; a beginner; novice"
+        },
+        {
+            "word": "Obfuscate ",
+            "meaning": "(verb) to deliberately obscure; to make confusing"
+        },
+        {
+            "word": "Obstinate ",
+            "meaning": "(adj.) stubborn; hard-headed; uncompromising"
+        },
+        {
+            "word": "Ostentatious ",
+            "meaning": "(adj.) characterized by or given to pretentious display; showy"
+        },
+        {
+            "word": "Pervade ",
+            "meaning": "(verb) to permeate throughout (adj. form: pervasive)"
+        },
+        {
+            "word": "Phlegmatic ",
+            "meaning": "(adj.) calm; sluggish; unemotional"
+        },
+        {
+            "word": "Plethora ",
+            "meaning": "(noun) an overabundance; a surplus"
+        },
+        {
+            "word": "Pragmatic ",
+            "meaning": "(adj.) practical rather than idealistic"
+        },
+        {
+            "word": "Presumptuous ",
+            "meaning": "(adj.) overstepping due bounds (as of propriety or courtesy); taking liberties"
+        },
+        {
+            "word": "Pristine ",
+            "meaning": "(adj.) pure; uncorrupted; clean"
+        },
+        {
+            "word": "Probity ",
+            "meaning": "(noun) adherence to highest principles; complete and confirmed integrity; uprightness"
+        },
+        {
+            "word": "Proclivity ",
+            "meaning": "(noun) a natural predisposition or inclination"
+        },
+        {
+            "word": "Profligate ",
+            "meaning": "(adj.) excessively wasteful; recklessly extravagant (noun form: profligacy)"
+        },
+        {
+            "word": "Propensity ",
+            "meaning": "(noun) a natural inclination or tendency; penchant"
+        },
+        {
+            "word": "Prosaic ",
+            "meaning": "(adj.) dull; lacking in spirit or imagination"
+        },
+        {
+            "word": "Pungent ",
+            "meaning": "(adj.) characterized by a strong, sharp smell or taste"
+        },
+        {
+            "word": "Quixotic ",
+            "meaning": "(adj.) foolishly impractical; marked by lofty romantic ideals"
+        },
+        {
+            "word": "Quotidian ",
+            "meaning": "(adj.) occurring or recurring daily; commonplace"
+        },
+        {
+            "word": "Rarefy ",
+            "meaning": "(verb) to make or become thin, less dense; to refine"
+        },
+        {
+            "word": "Recondite ",
+            "meaning": "(adj.) hidden; concealed; difficult to understand; obscure"
+        },
+        {
+            "word": "Refulgent ",
+            "meaning": "(adj.) radiant; shiny; brilliant"
+        },
+        {
+            "word": "Renege ",
+            "meaning": "(verb) to fail to honor a commitment; to go back on a promise"
+        },
+        {
+            "word": "Sedulous ",
+            "meaning": "(adj.) diligent; persistent; hard-working"
+        },
+        {
+            "word": "Shard ",
+            "meaning": "(noun) a piece of broken pottery or glass"
+        },
+        {
+            "word": "Soporific ",
+            "meaning": "(adj.) causing drowsiness; tending to induce sleep"
+        },
+        {
+            "word": "Sparse ",
+            "meaning": "(adj.) thin; not dense; arranged at widely spaced intervals"
+        },
+        {
+            "word": "Spendthrift ",
+            "meaning": "(noun) one who spends money wastefully"
+        },
+        {
+            "word": "Subtle ",
+            "meaning": "(adj.) not obvious; elusive; difficult to discern"
+        },
+        {
+            "word": "Tacit ",
+            "meaning": "(adj.) implied; not explicitly stated"
+        },
+        {
+            "word": "Terse ",
+            "meaning": "(adj.) brief and concise in wording"
+        },
+        {
+            "word": "Tout ",
+            "meaning": "(verb) to publicly praise or promote"
+        },
+        {
+            "word": "Trenchant ",
+            "meaning": "(adj.) sharply perceptive; keen; penetrating"
+        },
+        {
+            "word": "Unfeigned ",
+            "meaning": "(adj.) genuine; not false or hypocritical"
+        },
+        {
+            "word": "Untenable ",
+            "meaning": "(adj.) indefensible; not viable; uninhabitable"
+        },
+        {
+            "word": "Vacillate",
+            "meaning": "(verb) to waver indecisively between one course of action or opinion and another"
+        },
+        {
+            "word": "Variegated ",
+            "meaning": "(adj.) multicolored; characterized by a variety of patches of different color"
+        },
+        {
+            "word": "Vexation ",
+            "meaning": "(noun) annoyance; irritation (verb form: vex)"
+        },
+        {
+            "word": "Vigilant ",
+            "meaning": "(adj.) alertly watchful (noun form: vigilance)"
+        },
+        {
+            "word": "Vituperate ",
+            "meaning": "(verb) to use harsh condemnatory language; to abuse or censure severely or abusively; to berate"
+        },
+        {
+            "word": "Volatile ",
+            "meaning": "(adj.) readily changing to a vapor; changeable; fickle; explosive (noun form: volatility)"
+        }
+    ]
+}

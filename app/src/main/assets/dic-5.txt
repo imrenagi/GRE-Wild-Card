@@ -1,0 +1,208 @@
+{
+    "words": [
+        {
+            "word": "Alloy",
+            "meaning": "(verb) to commingle; to debase by mixing with something inferior; unalloyed means pure"
+        },
+        {
+            "word": "Appropriate ",
+            "meaning": "(verb) to take for one’s own use; to confiscate"
+        },
+        {
+            "word": "Arrest, arresting ",
+            "meaning": "(verb)/(adj.) to suspend; to engage; holding one’s attention: as in arrested adolescence, an arresting portrait"
+        },
+        {
+            "word": "August ",
+            "meaning": "(adj.) majestic, venerable"
+        },
+        {
+            "word": "Bent ",
+            "meaning": "(noun) leaning, inclination, proclivity, tendency"
+        },
+        {
+            "word": "Broach ",
+            "meaning": "(verb) to bring up; to announce; to begin to talk about"
+        },
+        {
+            "word": "Brook ",
+            "meaning": "(verb) to tolerate; to endure; to countenance"
+        },
+        {
+            "word": "Cardinal ",
+            "meaning": "(adj.) major, as in cardinal sin"
+        },
+        {
+            "word": "Chauvinist ",
+            "meaning": "(noun) a blindly devoted patriot"
+        },
+        {
+            "word": "Color ",
+            "meaning": "(verb) to change as if by dyeing, i.e., to distort, gloss, or affect (usually the first)"
+        },
+        {
+            "word": "Consequential ",
+            "meaning": "(adj.) pompous, self-important (primary definitions are: logically following; important)"
+        },
+        {
+            "word": "Damp ",
+            "meaning": "(verb) to diminish the intensity or check the vibration of a sound"
+        },
+        {
+            "word": "Die ",
+            "meaning": "(noun) a tool used for shaping, as in a tool-and-die shop"
+        },
+        {
+            "word": "Essay ",
+            "meaning": "(verb) to test or try; to attempt; to experiment"
+        },
+        {
+            "word": "Exact ",
+            "meaning": "(verb) to demand; to call for; to require; to take"
+        },
+        {
+            "word": "Fell ",
+            "meaning": "(verb) to cause to fall by striking"
+        },
+        {
+            "word": "Fell ",
+            "meaning": "(adj.) inhumanly cruel"
+        },
+        {
+            "word": "Flag ",
+            "meaning": "(verb) to sag or droop; to become spiritless; to decline"
+        },
+        {
+            "word": "Flip ",
+            "meaning": "(adj.) sarcastic, impertinent, as in flippant: a flip remark"
+        },
+        {
+            "word": "Ford ",
+            "meaning": "(verb) to wade across the shallow part of a river or stream"
+        },
+        {
+            "word": "Grouse ",
+            "meaning": "(verb) to complain or grumble"
+        },
+        {
+            "word": "Guy ",
+            "meaning": "(noun) a rope, cord, or cable attached to something as a brace or guide; to steady or reinforce using a guy: Think guide. (verb form: guyed, guying)"
+        },
+        {
+            "word": "Intimate ",
+            "meaning": "(verb) to imply, suggest, or insinuate"
+        },
+        {
+            "word": "List ",
+            "meaning": "(verb) to tilt or lean to one side"
+        },
+        {
+            "word": "Lumber ",
+            "meaning": "(verb) to move heavily and clumsily"
+        },
+        {
+            "word": "Meet ",
+            "meaning": "(adj.) fitting, proper"
+        },
+        {
+            "word": "Milk ",
+            "meaning": "(verb) to exploit; to squeeze every last ounce of"
+        },
+        {
+            "word": "Mince ",
+            "meaning": "(verb) to pronounce or speak affectedly; to euphemize, to speak too carefully. Also, to take tiny steps; to tiptoe"
+        },
+        {
+            "word": "Nice ",
+            "meaning": "(adj.) exacting, fastidious, extremely precise"
+        },
+        {
+            "word": "Occult ",
+            "meaning": "(adj.) hidden, concealed, beyond comprehension"
+        },
+        {
+            "word": "Pedestrian ",
+            "meaning": "(adj.) commonplace, trite, unremarkable, quotidian"
+        },
+        {
+            "word": "Pied ",
+            "meaning": "(adj.) multicolored, usually in blotches"
+        },
+        {
+            "word": "Pine ",
+            "meaning": "(verb) to lose vigor (as through grief); to yearn"
+        },
+        {
+            "word": "Plastic ",
+            "meaning": "(adj.) moldable, pliable, not rigid"
+        },
+        {
+            "word": "Pluck ",
+            "meaning": "(noun) courage, spunk, fortitude"
+        },
+        {
+            "word": "Prize ",
+            "meaning": "(verb) to pry, to press or force with a lever; something taken by force, spoils"
+        },
+        {
+            "word": "Rail ",
+            "meaning": "(verb) to complain about bitterly"
+        },
+        {
+            "word": "Rent ",
+            "meaning": "(verb) torn (past tense of rend); an opening or tear caused by such"
+        },
+        {
+            "word": "Quail ",
+            "meaning": "(verb) to lose courage; to turn frightened"
+        },
+        {
+            "word": "Qualify ",
+            "meaning": "(verb) to limit"
+        },
+        {
+            "word": "Sap ",
+            "meaning": "(verb) to enervate or weaken the vitality of"
+        },
+        {
+            "word": "Sap ",
+            "meaning": "(noun) a fool or nitwit"
+        },
+        {
+            "word": "Scurvy ",
+            "meaning": "(adj.) contemptible, despicable"
+        },
+        {
+            "word": "Singular ",
+            "meaning": "(adj.) exceptional, unusual, odd"
+        },
+        {
+            "word": "Stand ",
+            "meaning": "(noun) a group of trees"
+        },
+        {
+            "word": "Steep ",
+            "meaning": "(verb) to saturate or completely soak, as in to let a tea bag steep"
+        },
+        {
+            "word": "Strut ",
+            "meaning": "(noun) the supporting structural cross-part of a wing"
+        },
+        {
+            "word": "Table ",
+            "meaning": "(verb) to remove (as a parliamentary motion) from consideration"
+        },
+        {
+            "word": "Tender ",
+            "meaning": "(verb) to proffer or offer"
+        },
+        {
+            "word": "Waffle ",
+            "meaning": "(verb) to equivocate; to change one’s position"
+        },
+        {
+            "word": "Wag ",
+            "meaning": "(noun) wit, joker"
+        }
+    ]
+}

@@ -1,0 +1,316 @@
+{
+    "words": [
+        {
+            "word": "Abjure",
+            "meaning": "(verb) to renounce or reject solemnly; to recant; to avoid"
+        },
+        {
+            "word": "Adumbrate ",
+            "meaning": "(verb) to foreshadow vaguely or intimate; to suggest or outline sketchily; to obscure or overshadow"
+        },
+        {
+            "word": "Anathema ",
+            "meaning": "(noun) a solemn or ecclesiastical (religious) curse; accursed or thoroughly loathed person or thing"
+        },
+        {
+            "word": "Anodyne ",
+            "meaning": "(adj.)/(noun) soothing; something that assuages or allays pain or comforts"
+        },
+        {
+            "word": "Apogee ",
+            "meaning": "(noun) farthest or highest point; culmination; zenith"
+        },
+        {
+            "word": "Apostate ",
+            "meaning": "(noun) one who abandons long-held religious or political convictions"
+        },
+        {
+            "word": "Apotheosis ",
+            "meaning": "(noun) deification; glorification to godliness; an exalted example; a model of excellence or perfection"
+        },
+        {
+            "word": "Asperity ",
+            "meaning": "(noun) severity, rigor; roughness, harshness; acrimony, irritability"
+        },
+        {
+            "word": "Asseverate ",
+            "meaning": "(verb) to aver, allege, or assert"
+        },
+        {
+            "word": "Assiduous ",
+            "meaning": "(adj.) diligent, hard-working, sedulous"
+        },
+        {
+            "word": "Augury ",
+            "meaning": "(noun) omen, portent"
+        },
+        {
+            "word": "Bellicose ",
+            "meaning": "(adj.) belligerent, pugnacious, warlike"
+        },
+        {
+            "word": "Calumniate ",
+            "meaning": "(verb) to slander, to make a false accusation; calumny means slander, aspersion"
+        },
+        {
+            "word": "Captious ",
+            "meaning": "(adj.) disposed to point out trivial faults; calculated to confuse or entrap in argument"
+        },
+        {
+            "word": "Cavil ",
+            "meaning": "(verb) to find fault without good reason"
+        },
+        {
+            "word": "Celerity ",
+            "meaning": "(noun) speed, alacrity; think accelerate"
+        },
+        {
+            "word": "Chimera ",
+            "meaning": "(noun) an illusion; originally, an imaginary fire-breathing she-monster"
+        },
+        {
+            "word": "Contumacious ",
+            "meaning": "(adj.) insubordinate, rebellious; contumely means insult, scorn, aspersion"
+        },
+        {
+            "word": "Debacle ",
+            "meaning": "(noun) rout, fiasco, complete failure"
+        },
+        {
+            "word": "Denouement ",
+            "meaning": "(noun) an outcome or solution; the unraveling of a plot"
+        },
+        {
+            "word": "Descry ",
+            "meaning": "(verb) to discriminate or discern"
+        },
+        {
+            "word": "Desuetude ",
+            "meaning": "(noun) disuse"
+        },
+        {
+            "word": "Desultory ",
+            "meaning": "(adj.) random; aimless; marked by a lack of plan or purpose"
+        },
+        {
+            "word": "Diaphanous ",
+            "meaning": "(adj.) transparent, gauzy"
+        },
+        {
+            "word": "Diffident",
+            "meaning": "(adj.) reserved, shy, unassuming; lacking in self-confidence"
+        },
+        {
+            "word": "Dirge ",
+            "meaning": "(noun) a song of grief or lamentation"
+        },
+        {
+            "word": "Encomium ",
+            "meaning": "(noun) glowing and enthusiastic praise; panegyric, tribute, eulogy"
+        },
+        {
+            "word": "Eschew ",
+            "meaning": "(verb) to shun or avoid"
+        },
+        {
+            "word": "Excoriate ",
+            "meaning": "(verb) to censure scathingly, to upbraid"
+        },
+        {
+            "word": "Execrate ",
+            "meaning": "(verb) to denounce, to feel loathing for, to curse, to declare to be evil"
+        },
+        {
+            "word": "Exegesis ",
+            "meaning": "(noun) critical examination, explication"
+        },
+        {
+            "word": "Expiate ",
+            "meaning": "(verb) to atone or make amends for"
+        },
+        {
+            "word": "Extirpate ",
+            "meaning": "(verb) to destroy, to exterminate, to cut out, to exscind"
+        },
+        {
+            "word": "Fatuous ",
+            "meaning": "(adj.) silly, inanely foolish"
+        },
+        {
+            "word": "Fractious ",
+            "meaning": "(adj.) quarrelsome, rebellious, unruly, refractory, irritable"
+        },
+        {
+            "word": "Gainsay ",
+            "meaning": "(verb) to deny, to dispute, to contradict, to oppose"
+        },
+        {
+            "word": "Heterodox ",
+            "meaning": "(adj.) unorthodox, heretical, iconoclastic"
+        },
+        {
+            "word": "Imbroglio ",
+            "meaning": "(noun) difficult or embarrassing situation"
+        },
+        {
+            "word": "Indefatigable ",
+            "meaning": "(adj.) not easily exhaustible; tireless, dogged"
+        },
+        {
+            "word": "Ineluctable ",
+            "meaning": "(adj.) certain, inevitable"
+        },
+        {
+            "word": "Inimitable ",
+            "meaning": "(adj.) one of a kind, peerless"
+        },
+        {
+            "word": "Insouciant ",
+            "meaning": "(adj.) unconcerned, carefree, heedless"
+        },
+        {
+            "word": "Inveterate ",
+            "meaning": "(adj.) deep rooted, ingrained, habitual"
+        },
+        {
+            "word": "Jejune ",
+            "meaning": "(adj.) vapid, uninteresting, nugatory; childish, immature, puerile"
+        },
+        {
+            "word": "Lubricious ",
+            "meaning": "(adj.) lewd, wanton, greasy, slippery"
+        },
+        {
+            "word": "Mendicant ",
+            "meaning": "(noun) a beggar, supplicant"
+        },
+        {
+            "word": "Meretricious ",
+            "meaning": "(adj.) cheap, gaudy, tawdry, flashy, showy; attracting by false show"
+        },
+        {
+            "word": "Minatory ",
+            "meaning": "(adj.) menacing, threatening (reminds you of the Minotaur, a threatening creature indeed)"
+        },
+        {
+            "word": "Nadir ",
+            "meaning": "(noun) low point, perigee"
+        },
+        {
+            "word": "Nonplussed ",
+            "meaning": "(adj.) baffled, bewildered, at a loss for what to do or think"
+        },
+        {
+            "word": "Obstreperous ",
+            "meaning": "(adj.) noisily and stubbornly defiant, aggressively boisterous"
+        },
+        {
+            "word": "Ossified ",
+            "meaning": "(adj.) tending to become more rigid, conventional, sterile, and reactionary with age; literally, turned into bone"
+        },
+        {
+            "word": "Palliate ",
+            "meaning": "(verb) to make something seem less serious, to gloss over, to make less severe or intense"
+        },
+        {
+            "word": "Panegyric ",
+            "meaning": "(noun) formal praise, eulogy, encomium; panegyrical means expressing elaborate praise"
+        },
+        {
+            "word": "Parsimonious ",
+            "meaning": "(adj.) cheap, miserly"
+        },
+        {
+            "word": "Pellucid ",
+            "meaning": "(adj.) transparent, easy to understand, limpid"
+        },
+        {
+            "word": "Peroration ",
+            "meaning": "(noun) the concluding part of a speech; flowery, rhetorical speech"
+        },
+        {
+            "word": "Plangent ",
+            "meaning": "(adj.) pounding, thundering, resounding"
+        },
+        {
+            "word": "Prolix ",
+            "meaning": "(adj.) long-winded, verbose; prolixity means verbosity"
+        },
+        {
+            "word": "Propitiate ",
+            "meaning": "(verb) to appease; to conciliate; propitious means auspicious, favorable"
+        },
+        {
+            "word": "Puerile ",
+            "meaning": "(adj.) childish, immature, jejune, nugatory"
+        },
+        {
+            "word": "Puissance ",
+            "meaning": "(noun) power, strength; puissant means powerful, strong"
+        },
+        {
+            "word": "Pusillanimous ",
+            "meaning": "(adj.) cowardly, craven"
+        },
+        {
+            "word": "Remonstrate ",
+            "meaning": "(verb) to protest, to object"
+        },
+        {
+            "word": "Sagacious ",
+            "meaning": "(adj.) having sound judgment; perceptive, wise; like a sage"
+        },
+        {
+            "word": "Salacious ",
+            "meaning": "(adj.) lustful, lascivious, bawdy"
+        },
+        {
+            "word": "Salutary ",
+            "meaning": "(adj.) remedial, wholesome, causing improvement"
+        },
+        {
+            "word": "Sanguine ",
+            "meaning": "(adj.) cheerful, confident, optimistic"
+        },
+        {
+            "word": "Saturnine ",
+            "meaning": "(adj.) gloomy, dark, sullen, morose"
+        },
+        {
+            "word": "Sententious ",
+            "meaning": "(adj.) aphoristic or moralistic; epigrammatic; tending to moralize excessively"
+        },
+        {
+            "word": "Stentorian ",
+            "meaning": "(adj.) extremely loud and powerful"
+        },
+        {
+            "word": "Stygian ",
+            "meaning": "(adj.) gloomy, dark"
+        },
+        {
+            "word": "Sycophant ",
+            "meaning": "(noun) toady, servile, self-seeking flatterer; parasite"
+        },
+        {
+            "word": "Tendentious ",
+            "meaning": "(adj.) biased; showing marked tendencies"
+        },
+        {
+            "word": "Timorous ",
+            "meaning": "(adj.) timid, fearful, diffident"
+        },
+        {
+            "word": "Tyro ",
+            "meaning": "(noun) novice, greenhorn, rank amateur"
+        },
+        {
+            "word": "Vitiate ",
+            "meaning": "(verb) to corrupt, to debase, to spoil, to make ineffective"
+        },
+        {
+            "word": "Voluble ",
+            "meaning": "(adj.) fluent, verbal, having easy use of spoken language"
+        }
+    ]
+}
