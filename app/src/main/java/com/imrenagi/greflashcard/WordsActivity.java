@@ -86,17 +86,19 @@ public class WordsActivity extends AppCompatActivity implements FlashCardButtonL
 
             @Override
             public void onLeftCardExit(Object dataObject) {
-
+                Log.d("LIST", "Remove To Left");
+                wordList.add((Word)dataObject);
+                adapter.notifyDataSetChanged();
             }
 
             @Override
             public void onRightCardExit(Object dataObject) {
-
+                Log.d("LIST", "Remove To Right");
             }
 
             @Override
             public void onAdapterAboutToEmpty(int itemsInAdapter) {
-
+                Log.d("LIST", "Adapter About To Empty");
             }
 
             @Override
@@ -111,7 +113,6 @@ public class WordsActivity extends AppCompatActivity implements FlashCardButtonL
 
             }
         });
-
     }
 
     @Override
@@ -138,7 +139,7 @@ public class WordsActivity extends AppCompatActivity implements FlashCardButtonL
             case R.id.action_my_card:
                 title.setText(getString(R.string.my_card));
                 readDatabase();
-                flingContainer.getTopCardListener().selectLeft();
+                flingContainer.getTopCardListener().selectRight();
             default:
                 return true;
         }
