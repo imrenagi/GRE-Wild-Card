@@ -8,5 +8,11 @@
 
     <color name="white">#FFFF</color>
     <color name="card_border">#BBDEFB</color>
+    
+    <color name="light_blue">#03A9F4</color>
+    <color name="background_progress">#E0E0E0</color>
+    
+    <color name="red_header">#F44336</color>
+    <color name="red_progress">#EF5350</color>
 
 </resources>

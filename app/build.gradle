@@ -43,6 +43,7 @@ dependencies {
     compile 'com.lorentzos.swipecards:library:1.0.8@aar'
     compile 'com.github.navasmdc:MaterialDesign:1.5@aar'
     compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.akexorcist:RoundCornerProgressBar:1.1.0'
 }
 
 
