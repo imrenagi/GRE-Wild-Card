@@ -1,0 +1,316 @@
+{
+    "words": [
+        {
+            "word": "Acumen",
+            "meaning": "(noun) keen, accurate judgment or insight"
+        },
+        {
+            "word": "Adulterate",
+            "meaning": "(verb) to reduce purity by combining with inferior ingredients"
+        },
+        {
+            "word": "Amalgamate ",
+            "meaning": "(verb) to combine several elements into a whole (noun form: amalgamation)"
+        },
+        {
+            "word": "Archaic",
+            "meaning": "(adj.) outdated; associated with an earlier, perhaps more primitive, time"
+        },
+        {
+            "word": "Aver ",
+            "meaning": "(verb) to state as a fact; to declare or assert"
+        },
+        {
+            "word": "Bolster ",
+            "meaning": "(verb) to provide support or reinforcement"
+        },
+        {
+            "word": "Bombastic ",
+            "meaning": "(adj.) pompous; grandiloquent (noun form: bombast)"
+        },
+        {
+            "word": "Diatribe ",
+            "meaning": "(noun) a harsh denunciation"
+        },
+        {
+            "word": "Dissemble ",
+            "meaning": "(verb) to disguise or conceal; to mislead"
+        },
+        {
+            "word": "Eccentric ",
+            "meaning": "(adj.) departing from norms or conventions"
+        },
+        {
+            "word": "Endemic ",
+            "meaning": "(adj.) characteristic of or often found in a particular locality, region, or people"
+        },
+        {
+            "word": "Evanescent ",
+            "meaning": "(adj.) tending to disappear like vapor; vanishing"
+        },
+        {
+            "word": "Exacerbate ",
+            "meaning": "(verb) to make worse or more severe"
+        },
+        {
+            "word": "Fervent ",
+            "meaning": "(adj.) greatly emotional or zealous (noun form: fervor)"
+        },
+        {
+            "word": "Fortuitous ",
+            "meaning": "(adj.) happening by accident or chance"
+        },
+        {
+            "word": "Germane ",
+            "meaning": "(adj.) relevant to the subject at hand; appropriate in subject matter"
+        },
+        {
+            "word": "Grandiloquence ",
+            "meaning": "(noun) pompous speech or expression (adj. form: grandiloquent)"
+        },
+        {
+            "word": "Hackneyed ",
+            "meaning": "(adj.) rendered trite or commonplace by frequent usage"
+        },
+        {
+            "word": "Halcyon ",
+            "meaning": "(adj.) calm and peaceful"
+        },
+        {
+            "word": "Hedonism ",
+            "meaning": "(noun) devotion to pleasurable pursuits, esp. to the pleasures of the senses (a hedonist is someone who pursues pleasure)"
+        },
+        {
+            "word": "Hegemony ",
+            "meaning": "(noun) the consistent dominance of one state or group over others"
+        },
+        {
+            "word": "Iconoclast ",
+            "meaning": "(noun) one who attacks or undermines traditional conventions or institutions"
+        },
+        {
+            "word": "Idolatrous ",
+            "meaning": "(adj.) given to intense or excessive devotion to something (noun form: idolatry)"
+        },
+        {
+            "word": "Impassive ",
+            "meaning": "(adj.) revealing no emotion"
+        },
+        {
+            "word": "Imperturbable ",
+            "meaning": "(adj.) marked by extreme calm, impassivity, and steadiness"
+        },
+        {
+            "word": "Implacable ",
+            "meaning": "(adj.) not capable of being appeased or significantly changed"
+        },
+        {
+            "word": "Impunity ",
+            "meaning": "(noun) immunity from punishment or penalty"
+        },
+        {
+            "word": "Inchoate ",
+            "meaning": "(adj.) in an initial stage; not fully formed"
+        },
+        {
+            "word": "Infelicitous ",
+            "meaning": "(adj.) unfortunate; inappropriate"
+        },
+        {
+            "word": "Insipid ",
+            "meaning": "(adj.) lacking in qualities that interest, stimulate, or challenge"
+        },
+        {
+            "word": "Loquacious ",
+            "meaning": "(adj.) extremely talkative (noun form: loquacity)"
+        },
+        {
+            "word": "Luminous ",
+            "meaning": "(adj.) characterized by brightness and the emission of light"
+        },
+        {
+            "word": "Malevolent ",
+            "meaning": "(adj.) having or showing often vicious ill will, spite, or hatred (noun form: malevolence)"
+        },
+        {
+            "word": "Malleable ",
+            "meaning": "(adj.) capable of being shaped or formed; tractable; pliable"
+        },
+        {
+            "word": "Mendacity ",
+            "meaning": "(noun) the condition of being untruthful; dishonesty (adj. form: mendacious)"
+        },
+        {
+            "word": "Meticulous",
+            "meaning": "(adj.) characterized by extreme care and precision; attentive to detail"
+        },
+        {
+            "word": "Misanthrope ",
+            "meaning": "(noun) one who hates all other humans (adj. form: misanthropic)"
+        },
+        {
+            "word": "Mitigate ",
+            "meaning": "(verb) to make or become less severe or intense; to moderate"
+        },
+        {
+            "word": "Obdurate ",
+            "meaning": "(adj.) unyielding; hardhearted; intractable"
+        },
+        {
+            "word": "Obsequious ",
+            "meaning": "(adj.) exhibiting a fawning attentiveness"
+        },
+        {
+            "word": "Occlude ",
+            "meaning": "(verb) to obstruct or block"
+        },
+        {
+            "word": "Opprobrium ",
+            "meaning": "(noun) disgrace; contempt; scorn"
+        },
+        {
+            "word": "Pedagogy ",
+            "meaning": "(noun) the profession or principles of teaching, or instructing"
+        },
+        {
+            "word": "Pedantic ",
+            "meaning": "(adj.) overly concerned with the trivial details of learning or education; show-offish about one’s knowledge"
+        },
+        {
+            "word": "Penury ",
+            "meaning": "(noun) poverty; destitution"
+        },
+        {
+            "word": "Pervasive ",
+            "meaning": "(adj.) having the tendency to permeate or spread throughout"
+        },
+        {
+            "word": "Pine ",
+            "meaning": "(verb) to yearn intensely; to languish; to lose vigor"
+        },
+        {
+            "word": "Pirate ",
+            "meaning": "(verb) to illegally use or reproduce"
+        },
+        {
+            "word": "Pith ",
+            "meaning": "(noun) the essential or central part"
+        },
+        {
+            "word": "Pithy ",
+            "meaning": "(adj.) precise and brief"
+        },
+        {
+            "word": "Placate ",
+            "meaning": "(verb) to appease; to calm by making concessions"
+        },
+        {
+            "word": "Platitude ",
+            "meaning": "(noun) a superficial remark, esp. one offered as meaningful"
+        },
+        {
+            "word": "Plummet ",
+            "meaning": "(verb) to plunge or drop straight down"
+        },
+        {
+            "word": "Polemical ",
+            "meaning": "(adj.) controversial; argumentative"
+        },
+        {
+            "word": "Prodigal ",
+            "meaning": "(adj.) recklessly wasteful; extravagant; profuse; lavish"
+        },
+        {
+            "word": "Profuse ",
+            "meaning": "(adj.) given or coming forth abundantly; extravagant"
+        },
+        {
+            "word": "Proliferate ",
+            "meaning": "(verb) to grow or increase swiftly and abundantly"
+        },
+        {
+            "word": "Queries",
+            "meaning": "(noun) questions; inquiries; doubts in the mind; reservations"
+        },
+        {
+            "word": "Querulous ",
+            "meaning": "(adj.) prone to complaining or grumbling; peevish"
+        },
+        {
+            "word": "Rancorous ",
+            "meaning": "(adj.) characterized by bitter, long-lasting resentment (noun form: rancor)"
+        },
+        {
+            "word": "Recalcitrant ",
+            "meaning": "(adj.) obstinately defiant of authority; difficult to manage"
+        },
+        {
+            "word": "Repudiate ",
+            "meaning": "(verb) to refuse to have anything to do with; to disown"
+        },
+        {
+            "word": "Rescind ",
+            "meaning": "(verb) to invalidate; to repeal; to retract"
+        },
+        {
+            "word": "Reverent ",
+            "meaning": "(adj.) marked by, feeling, or expressing a feeling of profound awe and respect (noun form: reverence)"
+        },
+        {
+            "word": "Rhetoric ",
+            "meaning": "(noun) the art or study of effective use of language for communication and persuasion"
+        },
+        {
+            "word": "Salubrious ",
+            "meaning": "(adj.) promoting health or well-being"
+        },
+        {
+            "word": "Solvent ",
+            "meaning": "(adj.) able to meet financial obligations; able to dissolve another substance"
+        },
+        {
+            "word": "Specious ",
+            "meaning": "(adj.) seeming true, but actually being fallacious; misleadingly attractive; plausible but false"
+        },
+        {
+            "word": "Spurious ",
+            "meaning": "(adj.) lacking authenticity or validity; false; counterfeit"
+        },
+        {
+            "word": "Subpoena ",
+            "meaning": "(noun) a court order requiring appearance and/or testimony"
+        },
+        {
+            "word": "Succinct ",
+            "meaning": "(adj.) brief; concise"
+        },
+        {
+            "word": "Superfluous ",
+            "meaning": "(adj.) exceeding what is sufficient or necessary"
+        },
+        {
+            "word": "Surfeit ",
+            "meaning": "(verb) an overabundant supply; excess; to feed or supply to excess (noun form: a surfeit of supplies)"
+        },
+        {
+            "word": "Tenacity ",
+            "meaning": "(noun) the quality of adherence or persistence to something valued; persistent determination (adj. form: tenacious)"
+        },
+        {
+            "word": "Tenuous ",
+            "meaning": "(adj.) having little substance or strength; flimsy; weak"
+        },
+        {
+            "word": "Tirade ",
+            "meaning": "(noun) a long and extremely critical speech; a harsh denunciation"
+        },
+        {
+            "word": "Transient ",
+            "meaning": "(adj.) fleeting; passing quickly; brief"
+        },
+        {
+            "word": "Zealous ",
+            "meaning": "(adj.) fervent; ardent; impassioned, devoted to a cause (a zealot is a zealous person)"
+        }
+    ]
+}

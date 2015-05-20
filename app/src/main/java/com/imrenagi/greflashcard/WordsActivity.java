@@ -136,6 +136,10 @@ public class WordsActivity extends AppCompatActivity implements FlashCardButtonL
                 title.setText(getString(R.string.part_two));
                 create("dic-2.txt");
                 break;
+            case R.id.action_part_3:
+                title.setText(getString(R.string.part_three));
+                create("dic-3.txt");
+                break;
             case R.id.action_my_card:
                 title.setText(getString(R.string.my_card));
                 readDatabase();
