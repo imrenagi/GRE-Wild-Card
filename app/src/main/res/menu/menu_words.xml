@@ -39,4 +39,10 @@
         android:title="@string/part_six"
         app:showAsAction="never"/>
 
+    <item
+        android:id="@+id/action_my_card"
+        android:orderInCategory="7"
+        android:title="@string/my_card"
+        app:showAsAction="never"/>
+
 </menu>

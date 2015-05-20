@@ -56,8 +56,8 @@ public class FeedReaderDbHelper extends SQLiteOpenHelper {
                 values);
     }
 
-    public List<Word> getWords() {
-        List<Word> wordList = new ArrayList<Word>();
+    public ArrayList<Word> getWords() {
+        ArrayList<Word> wordList = new ArrayList<Word>();
         // Select All Query
         String selectQuery = "SELECT  * FROM " + FeedReaderContract.FeedEntry.TABLE_NAME;
 

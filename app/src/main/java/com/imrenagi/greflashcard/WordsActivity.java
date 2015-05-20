@@ -8,11 +8,13 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 
 import com.gc.materialdesign.views.ButtonFloat;
 import com.google.gson.Gson;
 import com.imrenagi.greflashcard.adapter.FlashcardAdapter;
 import com.imrenagi.greflashcard.adapter.FlashcardAdapter.FlashCardButtonListener;
+import com.imrenagi.greflashcard.db.FeedReaderDbHelper;
 import com.imrenagi.greflashcard.model.Word;
 import com.imrenagi.greflashcard.model.Words;
 import com.lorentzos.flingswipe.SwipeFlingAdapterView;
@@ -28,6 +30,7 @@ public class WordsActivity extends AppCompatActivity implements FlashCardButtonL
     private ButtonFloat button;
     private SwipeFlingAdapterView flingContainer;
     private FlashcardAdapter adapter;
+    private TextView title;
 
     private Gson gson = new Gson();
     private Words words;
@@ -41,6 +44,8 @@ public class WordsActivity extends AppCompatActivity implements FlashCardButtonL
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_words);
 
+        title = (TextView) findViewById(R.id.category_title);
+        title.setText(getString(R.string.part_one));
         button = (ButtonFloat) findViewById(R.id.buttonFloat);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,13 +57,6 @@ public class WordsActivity extends AppCompatActivity implements FlashCardButtonL
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-//        FeedReaderDbHelper dbHelper = new FeedReaderDbHelper(this);
-//        Word in = new Word();
-//        in.name = "hello";
-//        in.meaning = "pleasure";
-//        dbHelper.addWords(in);
-//        List<Word> list = dbHelper.getWords();
 
         create("dic-1.txt");
 
@@ -130,17 +128,21 @@ public class WordsActivity extends AppCompatActivity implements FlashCardButtonL
 
         switch (id) {
             case R.id.action_part_1:
+                title.setText(getString(R.string.part_one));
                 create("dic-1.txt");
                 break;
             case R.id.action_part_2:
+                title.setText(getString(R.string.part_two));
                 create("dic-2.txt");
                 break;
+            case R.id.action_my_card:
+                title.setText(getString(R.string.my_card));
+                readDatabase();
+                flingContainer.getTopCardListener().selectLeft();
             default:
                 return true;
         }
-
         flingContainer.getTopCardListener().selectRight();
-
         adapter.updateList(wordList);
 
         return true;
@@ -173,6 +175,16 @@ public class WordsActivity extends AppCompatActivity implements FlashCardButtonL
         for (Word word : words.words) {
             wordList.add(word);
         }
+    }
+
+    private void readDatabase() {
+        FeedReaderDbHelper dbHelper = new FeedReaderDbHelper(this);
+        wordList.clear();
+        if (adapter != null) {
+            adapter.clearAdapter();
+        }
+        wordList.addAll(dbHelper.getWords());
+        Log.d("","");
     }
 
     @Override

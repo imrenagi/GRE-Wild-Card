@@ -10,6 +10,9 @@ import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.Spinner;
 
+import com.imrenagi.greflashcard.db.FeedReaderDbHelper;
+import com.imrenagi.greflashcard.model.Word;
+
 
 public class EditorActivity extends AppCompatActivity {
 
@@ -49,7 +52,13 @@ public class EditorActivity extends AppCompatActivity {
 
             if (!nameEditText.getText().toString().isEmpty()
                     && !meaningEditText.getText().toString().isEmpty()) {
-                //todo save db here
+
+                FeedReaderDbHelper dbHelper = new FeedReaderDbHelper(this);
+                Word card = new Word();
+                card.name = nameEditText.getText().toString();
+                card.meaning = (String) typeSpinner.getSelectedItem() +" "+ meaningEditText.getText().toString();
+                dbHelper.addWords(card);
+
                 showSuccessDialog();
             } else {
                 showFailedDialog();

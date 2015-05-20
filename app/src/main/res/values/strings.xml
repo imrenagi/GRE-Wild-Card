@@ -20,6 +20,7 @@
     <string name="failed_title">Failed!</string>
     <string name="add_card_failed_message">Word and Meaning must not be empty!</string>
     <string name="oke">Oke</string>
+    <string name="my_card">My Card</string>
     <string-array name="type_arrays">
         <item>(noun)</item>
         <item>(adj.)</item>
