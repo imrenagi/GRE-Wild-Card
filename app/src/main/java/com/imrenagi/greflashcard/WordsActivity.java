@@ -22,6 +22,8 @@ import com.lorentzos.flingswipe.SwipeFlingAdapterView;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Random;
 
 
 public class WordsActivity extends AppCompatActivity implements FlashCardButtonListener {
@@ -192,6 +194,9 @@ public class WordsActivity extends AppCompatActivity implements FlashCardButtonL
         for (Word word : words.words) {
             wordList.add(word);
         }
+
+        long seed = System.nanoTime();
+        Collections.shuffle(wordList, new Random(seed));
     }
 
     private void readDatabase() {
