@@ -7,5 +7,6 @@
     <color name="accentLight">#EC407A</color>
 
     <color name="white">#FFFF</color>
+    <color name="card_border">#BBDEFB</color>
 
 </resources>
