@@ -13,6 +13,13 @@
 
     <string name="type_prompt">Type</string>
     <string name="finish">Finish</string>
+    <string name="card_saved">Card Saved</string>
+    <string name="add_card_success_message">Card has been added to \'My Card\'. Create another card ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="failed_title">Failed!</string>
+    <string name="add_card_failed_message">Word and Meaning must not be empty!</string>
+    <string name="oke">Oke</string>
     <string-array name="type_arrays">
         <item>(noun)</item>
         <item>(adj.)</item>
