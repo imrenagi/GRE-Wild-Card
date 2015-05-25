@@ -1,6 +1,7 @@
 package com.imrenagi.greflashcard;
 
 import android.content.Intent;
+import android.nfc.Tag;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -10,6 +11,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
+import com.akexorcist.roundcornerprogressbar.IconRoundCornerProgressBar;
 import com.gc.materialdesign.views.ButtonFloat;
 import com.google.gson.Gson;
 import com.imrenagi.greflashcard.adapter.FlashcardAdapter;
@@ -33,6 +35,9 @@ public class WordsActivity extends AppCompatActivity implements FlashCardButtonL
     private SwipeFlingAdapterView flingContainer;
     private FlashcardAdapter adapter;
     private TextView title;
+    private TextView counter;
+    private IconRoundCornerProgressBar progressBar;
+    private boolean updateCounter = true;
 
     private Gson gson = new Gson();
     private Words words;
@@ -57,6 +62,10 @@ public class WordsActivity extends AppCompatActivity implements FlashCardButtonL
             }
         });
 
+        counter = (TextView) findViewById(R.id.textCounter);
+        progressBar = (IconRoundCornerProgressBar)findViewById(R.id.correct_progress);
+
+
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -72,35 +81,34 @@ public class WordsActivity extends AppCompatActivity implements FlashCardButtonL
         flingContainer.setFlingListener(new SwipeFlingAdapterView.onFlingListener() {
             @Override
             public void removeFirstObjectInAdapter() {
-                // this is the simplest way to delete an object from the Adapter (/AdapterView)
-                Log.d("LIST", "removed object!");
-
                 if (isNewUpdate) {
-                    Log.d("UPDATE", "TRUE");
                     isNewUpdate = false;
                     adapter.notifyDataSetChanged();
                     return;
                 }
-
                 wordList.remove(0);
                 adapter.notifyDataSetChanged();
             }
 
             @Override
             public void onLeftCardExit(Object dataObject) {
-                Log.d("LIST", "Remove To Left");
                 wordList.add((Word)dataObject);
                 adapter.notifyDataSetChanged();
             }
 
             @Override
             public void onRightCardExit(Object dataObject) {
-                Log.d("LIST", "Remove To Right");
+                if (updateCounter) {
+                    int progress = (int)progressBar.getProgress();
+                    progress++;
+                    progressBar.setProgress((float) progress);
+                }else {
+                    updateCounter = true;
+                }
             }
 
             @Override
             public void onAdapterAboutToEmpty(int itemsInAdapter) {
-                Log.d("LIST", "Adapter About To Empty");
             }
 
             @Override
@@ -157,13 +165,15 @@ public class WordsActivity extends AppCompatActivity implements FlashCardButtonL
             case R.id.action_my_card:
                 title.setText(getString(R.string.my_card));
                 readDatabase();
+                updateCounter = false;
                 flingContainer.getTopCardListener().selectRight();
             default:
                 return true;
         }
+        updateCounter = false;
         flingContainer.getTopCardListener().selectRight();
-        adapter.updateList(wordList);
 
+        adapter.updateList(wordList);
         return true;
     }
 
@@ -197,7 +207,9 @@ public class WordsActivity extends AppCompatActivity implements FlashCardButtonL
 
         long seed = System.nanoTime();
         Collections.shuffle(wordList, new Random(seed));
+        updateProgressBar(0, wordList.size());
     }
+
 
     private void readDatabase() {
         FeedReaderDbHelper dbHelper = new FeedReaderDbHelper(this);
@@ -206,7 +218,12 @@ public class WordsActivity extends AppCompatActivity implements FlashCardButtonL
             adapter.clearAdapter();
         }
         wordList.addAll(dbHelper.getWords());
-        Log.d("","");
+        updateProgressBar(0, wordList.size());
+    }
+
+    private void updateProgressBar(int progress, int max) {
+        progressBar.setProgress((float) progress);
+        progressBar.setMax((float)max);
     }
 
     @Override
